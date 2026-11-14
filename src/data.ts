@@ -4,7 +4,7 @@ export const profile = {
   roles: ["Full-Stack Developer", "AI Enthusiast", "CS Student @ IIT Sfax", "IEEE CS Webmaster"],
   location: "Sfax, Tunisia",
   email: "khdir.ahmed@iit.ens.tn",
-  github: "https://github.com/busses4",
+  github: "https://github.com/khdir-ahmed",
   summary:
     "Computer Science student at IIT Sfax with hands-on full-stack experience in C# / ASP.NET Core, Next.js / React, TypeScript and PostgreSQL. I like turning messy real-world processes into clean, fast software — and I'm increasingly drawn to artificial intelligence and data science.",
 };
@@ -44,8 +44,8 @@ export const projects: Project[] = [
     image: "projects/digit.png",
     accent: "from-violet-500/30 to-fuchsia-500/10",
     icon: "brain",
-    code: "https://github.com/busses4/digit-recognizer",
-    demo: "https://busses4.github.io/digit-recognizer/",
+    code: "https://github.com/khdir-ahmed/digit-recognizer",
+    demo: "https://khdir-ahmed.github.io/digit-recognizer/",
     featured: true,
   },
   {
@@ -58,7 +58,7 @@ export const projects: Project[] = [
     tags: ["ASP.NET Core", "EF Core", "Next.js", "React", "TypeScript", "Tailwind", "PostgreSQL", "Docker"],
     accent: "from-sky-500/30 to-cyan-400/10",
     icon: "server",
-    code: "https://github.com/busses4/kompass",
+    code: "https://github.com/khdir-ahmed/kompass",
     featured: true,
   },
   {
@@ -72,7 +72,7 @@ export const projects: Project[] = [
     image: "projects/spam.png",
     accent: "from-emerald-500/30 to-teal-400/10",
     icon: "spam",
-    code: "https://github.com/busses4/spam-classifier",
+    code: "https://github.com/khdir-ahmed/spam-classifier",
     featured: true,
   },
   {
@@ -84,7 +84,7 @@ export const projects: Project[] = [
     tags: ["C#", "ASP.NET Core MVC", "EF Core", "SQLite", "Bootstrap"],
     accent: "from-orange-500/30 to-amber-400/10",
     icon: "utensils",
-    code: "https://github.com/busses4/eFastOrder",
+    code: "https://github.com/khdir-ahmed/eFastOrder",
   },
   {
     title: "IEEE CS Student Branch Website",
@@ -105,7 +105,7 @@ export const projects: Project[] = [
     tags: ["PHP", "MySQL", "PDO", "JavaScript", "CSS"],
     accent: "from-rose-500/30 to-red-400/10",
     icon: "dumbbell",
-    code: "https://github.com/busses4/gym-system",
+    code: "https://github.com/khdir-ahmed/gym-system",
   },
   {
     title: "Library Reservation System",
@@ -116,7 +116,7 @@ export const projects: Project[] = [
     tags: ["Java", "Swing", "JDBC", "MySQL"],
     accent: "from-yellow-500/25 to-lime-400/10",
     icon: "book",
-    code: "https://github.com/busses4/libray",
+    code: "https://github.com/khdir-ahmed/libray",
   },
 ];
 

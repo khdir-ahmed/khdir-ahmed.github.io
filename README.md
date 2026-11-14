@@ -1,6 +1,6 @@
 # Khdir Ahmed — Portfolio
 
-Personal portfolio and online CV: **https://busses4.github.io/**
+Personal portfolio and online CV: **https://khdir-ahmed.github.io/**
 
 Built with **React 19**, **TypeScript**, **Tailwind CSS v4** and **Motion** (scroll reveals, layout animations, cursor spotlight), bundled with **Vite** and deployed to **GitHub Pages** with GitHub Actions.
 
