@@ -60,8 +60,7 @@ export default function Hero() {
         </motion.div>
 
         <motion.h1 variants={item} className="mt-7 text-5xl font-extrabold tracking-tight text-white sm:text-7xl lg:text-8xl">
-          Hi, I'm {profile.name} 
-          <span className="inline-block origin-[70%_70%] animate-[wave_2.4s_ease-in-out_1s_2]">👋</span>
+          Hi, I'm {profile.name}
         </motion.h1>
 
         <motion.p variants={item} className="mt-5 text-2xl font-semibold text-slate-200 sm:text-4xl">
@@ -81,8 +80,8 @@ export default function Hero() {
           <a href="#projects" className="group inline-flex items-center gap-2 rounded-xl bg-white px-5 py-3 text-sm font-semibold text-ink shadow-lg shadow-indigo-500/20 transition hover:-translate-y-0.5 hover:shadow-indigo-500/40">
             View my work <ArrowUpRight className="size-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </a>
-          <a href="#cv" className="inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/[0.03] px-5 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-white/[0.07]">
-            <Download className="size-4" /> My CV
+          <a href={profile.cv} download className="inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/[0.03] px-5 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-white/[0.07]">
+            <Download className="size-4" /> Download CV
           </a>
           <a href={profile.github} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/[0.03] px-5 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-white/[0.07]">
             <GitHubIcon /> GitHub

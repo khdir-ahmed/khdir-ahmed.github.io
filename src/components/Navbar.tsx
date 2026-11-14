@@ -1,5 +1,5 @@
 import { AnimatePresence, motion, useScroll, useSpring } from "motion/react";
-import { Menu, X } from "lucide-react";
+import { Download, Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { profile } from "../data";
 import { GitHubIcon } from "./ui";
@@ -66,6 +66,9 @@ export default function Navbar() {
           </ul>
 
           <div className="flex items-center gap-2">
+            <a href={profile.cv} download className="inline-flex items-center gap-1.5 rounded-lg bg-white px-3 py-1.5 text-sm font-semibold text-ink transition hover:bg-indigo-100">
+              <Download className="size-3.5" /> <span className="hidden sm:inline">Download</span> CV
+            </a>
             <a href={profile.github} target="_blank" rel="noreferrer" aria-label="GitHub" className="rounded-lg p-2 text-slate-400 transition-colors hover:bg-white/5 hover:text-white">
               <GitHubIcon />
             </a>

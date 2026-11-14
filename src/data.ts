@@ -5,6 +5,7 @@ export const profile = {
   location: "Sfax, Tunisia",
   email: "khdir.ahmed@iit.ens.tn",
   github: "https://github.com/khdir-ahmed",
+  cv: "Khdir_Ahmed_CV.pdf",
   summary:
     "Computer Science student at IIT Sfax with hands-on full-stack experience in C# / ASP.NET Core, Next.js / React, TypeScript and PostgreSQL. I like turning messy real-world processes into clean, fast software — and I'm increasingly drawn to artificial intelligence and data science.",
 };

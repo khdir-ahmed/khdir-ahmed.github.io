@@ -1,6 +1,6 @@
 import { AnimatePresence, motion } from "motion/react";
 import {
-  ArrowUpRight, Award, BookOpen, Brain, Briefcase, Dumbbell, ExternalLink, GraduationCap,
+  ArrowUpRight, Award, BookOpen, Brain, Briefcase, Download, Dumbbell, ExternalLink, FileText, GraduationCap,
   Languages, Mail, MailWarning, MapPin, Server, Sparkles, Trophy, Users, Utensils,
 } from "lucide-react";
 import { useState } from "react";
@@ -243,6 +243,22 @@ function Block({ icon: Icon, title, children, delay = 0 }: { icon: typeof Award;
 export function CV() {
   return (
     <Section id="cv" eyebrow="05 — Résumé" title="Education, activities & more">
+      <Reveal className="mb-6">
+        <div className="flex flex-col items-start justify-between gap-5 rounded-2xl border border-indigo-400/20 bg-gradient-to-r from-indigo-500/[0.10] to-cyan-500/[0.06] p-6 sm:flex-row sm:items-center sm:p-7">
+          <div className="flex items-center gap-4">
+            <div className="grid size-12 shrink-0 place-items-center rounded-xl bg-white/[0.06] text-indigo-200">
+              <FileText className="size-6" />
+            </div>
+            <div>
+              <p className="font-semibold text-white">Full CV (PDF)</p>
+              <p className="text-sm text-slate-400">Experience, projects, skills and certifications on one page.</p>
+            </div>
+          </div>
+          <a href={profile.cv} download className="group inline-flex shrink-0 items-center gap-2 rounded-xl bg-white px-5 py-3 text-sm font-semibold text-ink shadow-lg shadow-indigo-500/20 transition hover:-translate-y-0.5">
+            <Download className="size-4 transition-transform group-hover:translate-y-0.5" /> Download CV
+          </a>
+        </div>
+      </Reveal>
       <div className="grid gap-4 lg:grid-cols-2">
         <Block icon={GraduationCap} title="Education">
           <ul className="space-y-5">
@@ -332,6 +348,9 @@ export function Contact() {
                 </a>
                 <a href={profile.github} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/[0.04] px-6 py-3.5 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-white/[0.08]">
                   <GitHubIcon /> GitHub
+                </a>
+                <a href={profile.cv} download className="inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/[0.04] px-6 py-3.5 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-white/[0.08]">
+                  <Download className="size-4" /> CV
                 </a>
               </div>
             </div>
