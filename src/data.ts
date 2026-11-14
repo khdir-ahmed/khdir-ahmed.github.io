@@ -13,7 +13,7 @@ export const profile = {
 export const stats = [
   { value: "3,400+", label: "interventions managed by the platform I helped build" },
   { value: "99.6%", label: "test accuracy of my handwritten-digit CNN" },
-  { value: "7", label: "projects shipped across web, desktop and AI" },
+  { value: "8", label: "projects shipped across web, desktop and AI" },
 ];
 
 export type Category = "AI" | "Web" | "Desktop";
@@ -34,6 +34,21 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+  {
+    title: "DocChat — Chat with your PDFs",
+    year: "2026",
+    category: "AI",
+    description:
+      "Retrieval-augmented generation (RAG) app: upload PDFs, ask questions, get answers that cite the exact page. Search runs fully in the browser.",
+    highlights: ["Hybrid search: MiniLM embeddings + BM25, fused with RRF", "Embedding model runs on-device in a Web Worker", "Streaming Gemini answers with clickable citations"],
+    tags: ["RAG", "LLM", "Transformers.js", "React", "TypeScript", "Gemini API"],
+    image: "projects/docchat.png",
+    accent: "from-violet-500/30 to-fuchsia-500/10",
+    icon: "brain",
+    code: "https://github.com/khdir-ahmed/doc-chat",
+    demo: "https://khdir-ahmed.github.io/doc-chat/",
+    featured: true,
+  },
   {
     title: "Handwritten Digit Recognizer",
     year: "2026",
@@ -141,7 +156,7 @@ export const experience = [
 export const skills = [
   { group: "Languages", items: ["C#", "Python", "TypeScript", "JavaScript", "Java", "C", "PHP", "SQL", "PL/SQL", "MATLAB"] },
   { group: "Web", items: ["ASP.NET Core MVC", "Next.js", "React", "Tailwind CSS", "REST APIs", "HTML", "CSS"] },
-  { group: "AI & Data", items: ["PyTorch", "scikit-learn", "pandas", "ONNX", "Streamlit", "Deep Learning", "LLMs"] },
+  { group: "AI & Data", items: ["PyTorch", "scikit-learn", "RAG", "LLMs", "Transformers.js", "ONNX", "pandas", "Streamlit", "Deep Learning"] },
   { group: "Databases", items: ["PostgreSQL", "MySQL", "SQLite", "Entity Framework Core"] },
   { group: "Tools & DevOps", items: ["Git", "GitHub Actions", "Docker", "Docker Compose", "Neon", "Linux", "Unity", "Cisco Packet Tracer"] },
   { group: "Testing", items: ["ISTQB Foundation", "Test case design", "Manual testing", "Bug reporting", "pytest"] },
