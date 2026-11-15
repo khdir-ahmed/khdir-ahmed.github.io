@@ -1,4 +1,4 @@
-# Khdir Ahmed — Portfolio
+# Ahmed Khdir — Portfolio
 
 Personal portfolio and online CV: **https://khdir-ahmed.github.io/**
 

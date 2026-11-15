@@ -1,13 +1,13 @@
 export const profile = {
-  name: "Khdir Ahmed",
-  role: "Computer Science Student · Full-Stack Developer",
-  roles: ["Full-Stack Developer", "AI Enthusiast", "CS Student @ IIT Sfax", "IEEE CS Webmaster"],
+  name: "Ahmed Khdir",
+  role: "Computer Science Student · Full-Stack Developer · Applied AI",
+  roles: ["Full-Stack Developer", "Applied AI", "CS Student @ IIT Sfax", "IEEE CS Webmaster"],
   location: "Sfax, Tunisia",
   email: "khdir.ahmed@iit.ens.tn",
   github: "https://github.com/khdir-ahmed",
-  cv: "Khdir_Ahmed_CV.pdf",
+  cv: "Ahmed_Khdir_CV.pdf",
   summary:
-    "Computer Science student at IIT Sfax with hands-on full-stack experience in C# / ASP.NET Core, Next.js / React, TypeScript and PostgreSQL. I like turning messy real-world processes into clean, fast software — and I'm increasingly drawn to artificial intelligence and data science.",
+    "Computer Science student at IIT Sfax with hands-on full-stack experience from a software engineering internship at Steros. I build web applications with C# / ASP.NET Core, React, Next.js, TypeScript and PostgreSQL, alongside applied AI projects in multi-agent workflows, retrieval-augmented generation, NLP and deep learning. Looking for software engineering, full-stack, AI or data-focused internships.",
 };
 
 export const stats = [
@@ -162,37 +162,35 @@ export const experience = [
     points: [
       "Contributed to a medical maintenance platform managing 60+ clients, 200+ devices and 3,400+ interventions.",
       "Merged two versions of an ASP.NET Core MVC application into one codebase, unifying authentication, the interventions module and a 72-entity data model.",
-      "Built a new front end with Next.js 16, React 19, TypeScript and Tailwind CSS — dashboards, KPIs, charts and management modules.",
+      "Developed the front end with Next.js 16, React 19, TypeScript and Tailwind CSS — dashboards, KPIs, charts and management modules.",
       "Implemented session-based authentication with Admin / Client roles and a client portal to view equipment and submit maintenance requests.",
-      "Containerized the app with Docker Compose, migrated the database schema and connected it to cloud PostgreSQL (Neon).",
+      "Containerized the application with Docker Compose and integrated Neon-hosted PostgreSQL.",
     ],
     tags: ["C#", "ASP.NET Core", "EF Core", "Next.js", "React", "TypeScript", "Tailwind", "PostgreSQL", "Docker"],
   },
 ];
 
 export const skills = [
-  { group: "Languages", items: ["C#", "Python", "TypeScript", "JavaScript", "Java", "C", "PHP", "SQL", "PL/SQL", "MATLAB"] },
-  { group: "Web", items: ["ASP.NET Core MVC", "Next.js", "React", "Tailwind CSS", "REST APIs", "HTML", "CSS"] },
-  { group: "AI & Data", items: ["PyTorch", "scikit-learn", "RAG", "LLMs", "Transformers.js", "ONNX", "pandas", "Streamlit", "Deep Learning"] },
-  { group: "Databases", items: ["PostgreSQL", "MySQL", "SQLite", "Entity Framework Core"] },
-  { group: "Tools & DevOps", items: ["Git", "GitHub Actions", "Docker", "Docker Compose", "Neon", "Linux", "Unity", "Cisco Packet Tracer"] },
-  { group: "Testing", items: ["ISTQB Foundation", "Test case design", "Manual testing", "Bug reporting", "pytest"] },
+  { group: "Languages", items: ["C#", "C", "Python", "Java", "JavaScript", "TypeScript", "PHP", "SQL", "PL/SQL", "MATLAB"] },
+  { group: "Frontend", items: ["React", "Next.js", "Tailwind CSS", "HTML", "CSS"] },
+  { group: "Backend", items: ["ASP.NET Core MVC", "REST APIs", "Entity Framework Core", "FastAPI"] },
+  { group: "AI / ML", items: ["PyTorch", "scikit-learn", "CNNs", "NLP", "Embeddings", "RAG", "LangGraph", "ONNX Runtime Web"] },
+  { group: "Databases", items: ["PostgreSQL", "MySQL", "SQLite"] },
+  { group: "Tools & DevOps", items: ["Git", "GitHub", "GitHub Actions", "Docker", "Docker Compose", "Neon", "Linux", "Windows"] },
 ];
 
 export const activities = [
-  { title: "Webmaster — IEEE Computer Society Student Branch", period: "2026 – Present", text: "Build and maintain the branch website and event content." },
-  { title: "IEEEXtreme 18.0, 18.1 & 2026", period: "Competitive programming", text: "24-hour international programming contest." },
-  { title: "CSTAM & ATIC — AfroTech Intelligence Congress", period: "Oct – Nov 2026", text: "Contributor to the second edition of both events." },
+  { title: "Webmaster — IEEE Computer Society Student Branch", period: "2026 – Present", text: "Build and maintain the branch website: responsive pages, reusable React components, event, member and activity content." },
+  { title: "IEEEXtreme 18.0, 18.1 & 19.0", period: "Competitive programming", text: "24-hour international programming contest." },
+  { title: "CSTAM", period: "Nov 2026", text: "Participant." },
+  { title: "ATIC — AfroTech Intelligence Congress", period: "Oct 2026", text: "Participant." },
   { title: "Pyrobots Hackathon", period: "May 2025", text: "Member of the organizing team." },
   { title: "Crack Code Hackathon", period: "Feb 2025", text: "Participant." },
 ];
 
 export const certifications = [
-  "ISTQB Certified Tester — Foundation Level",
-  "Evaluating and Customizing LLMs",
-  "Fundamentals of Deep Learning",
-  "Quantum Computing — IBM Quantum / QWorld",
-  "Python Programming — ITS",
+  "QBronze — Quantum Computing & Programming using Qiskit, QWorld (Oct 2025)",
+  "IEEEXtreme 19.0 — Certificate of Participation (Oct 2025)",
 ];
 
 export const education = [

@@ -48,7 +48,7 @@ export default function Navbar() {
           }`}
         >
           <a href="#top" className="font-semibold tracking-tight text-white">
-            <span className="text-gradient font-extrabold">KA</span>
+            <span className="text-gradient font-extrabold">AK</span>
             <span className="ml-2 hidden text-slate-400 sm:inline">/ portfolio</span>
           </a>
 
