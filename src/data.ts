@@ -5,7 +5,7 @@ export const profile = {
   location: "Sfax, Tunisia",
   email: "khdir.ahmed@iit.ens.tn",
   github: "https://github.com/khdir-ahmed",
-  cv: "Ahmed_Khdir_CV.pdf",
+  cv: "Khdir_Ahmed_CV.pdf",
   summary:
     "Computer Science student at IIT Sfax with hands-on full-stack experience from a software engineering internship at Steros. I build web applications with C# / ASP.NET Core, React, Next.js, TypeScript and PostgreSQL, alongside applied AI projects in multi-agent workflows, retrieval-augmented generation, NLP and deep learning. Looking for software engineering, full-stack, AI or data-focused internships.",
 };
