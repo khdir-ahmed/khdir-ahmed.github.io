@@ -13,7 +13,7 @@ export const profile = {
 export const stats = [
   { value: "3,400+", label: "interventions managed by the platform I helped build" },
   { value: "99.6%", label: "test accuracy of my handwritten-digit CNN" },
-  { value: "8", label: "projects shipped across web, desktop and AI" },
+  { value: "9", label: "projects shipped across web, desktop and AI" },
 ];
 
 export type Category = "AI" | "Web" | "Desktop";
@@ -34,6 +34,23 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+  {
+    title: "UniPath — AI University Application Assistant",
+    year: "2026",
+    category: "AI",
+    description:
+      "Multi-agent platform that helps international students find Master's programs, check their eligibility against official admission requirements, track applications and draft letters and emails.",
+    highlights: [
+      "6 LangGraph agents: research, requirements, eligibility, documents, email, coordinator",
+      "Every requirement traced to its source page, unverified claims flagged",
+      "Explainable 0–100 eligibility score with German grade conversion",
+    ],
+    tags: ["LangGraph", "Claude API", "Multi-agent", "FastAPI", "React", "TypeScript", "Recharts"],
+    accent: "from-indigo-500/30 to-sky-500/10",
+    icon: "brain",
+    code: "https://github.com/khdir-ahmed/uni-application-assistant",
+    featured: true,
+  },
   {
     title: "DocChat — Chat with your PDFs",
     year: "2026",
